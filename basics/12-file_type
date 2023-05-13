@@ -1,2 +1,2 @@
 #!/bin/bash
-find -type /tmp/iamafile | sort | uniq -c | sort -c
+find -type /tmp/iamafile | sort | uniq
