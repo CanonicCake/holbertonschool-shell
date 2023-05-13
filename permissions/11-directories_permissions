@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R a+X /root/holbertonschool-shell/permissions
+chmod 755 -R $(find /root/holbertonschool-shell/permissions -type d)
