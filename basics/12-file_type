@@ -1,2 +1,2 @@
 #!/bin/bash
-find -type /tmp/iamafile
+find /tmp/iamafile -type
