@@ -1,2 +1,2 @@
 #!/bin/bash
-find -02 /tmp/iamafile
+find -02 /tmp -type f "iamafile"
