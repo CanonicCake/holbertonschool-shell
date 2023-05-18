@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%$NUM.2\n" | grep -i "0.00"
+printf "%.2f\n" $NUM | grep -i "0.00"
