@@ -6,11 +6,11 @@ while ((i <= 19))
 do
 	echo $"$i"
 	case "$i" in
-		3) echo 'bad luck from China'
+		4) echo 'bad luck from China'
 			;;
-		8) echo 'bad luck from Japan'
+		9) echo 'bad luck from Japan'
 			;;
-		16) echo 'bad luck from Italy'
+		17) echo 'bad luck from Italy'
 	esac
 ((i++));
 done
