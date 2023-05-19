@@ -2,7 +2,7 @@
 #until loop
 
 i=o;
-until ((i = 9));
+until ((i < 9));
 do
 echo "Best School"
 ((i++));
