@@ -4,17 +4,13 @@
 i=0;
 while ((i <= 19))
 do
-	if ((i == 3))
-	then
-		echo "bad luck from China"
-	elif ((i == 8))
-	then
-		echo "bad luck from Japan"
-	elif ((i == 16))
-	then
-		echo "bad luck from Italy"
-	else
-		echo "Best School"
-	fi
+	echo $"$i"
+	case "$i" in
+		3) echo 'bad luck from China'
+			;;
+		8) echo 'bad luck from Japan'
+			;;
+		16) echo 'bad luck from Italy'
+	esac
 ((i++));
 done
