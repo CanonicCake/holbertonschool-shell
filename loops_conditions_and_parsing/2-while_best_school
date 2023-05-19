@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# While loop 10x
+
+i=0;
+while ((i <= 9))
+do
+echo "Best School"
+((i++));
+done
