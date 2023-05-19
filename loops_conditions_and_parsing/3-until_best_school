@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#until loop
+
+i=o;
+until ((i = 9));
+do
+echo "Best School"
+((i++));
+done
