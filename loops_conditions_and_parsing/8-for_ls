@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# to display all of the current directory in long format
+
+i=$(ls)
+for x in $i
+do
+	file=$(echo "$x" | cut -d- -f2)
+	printf "%s\n" "$file"
+done
